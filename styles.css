@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Header-Font;
+    src: url(HindSiliguri-SemiBold.ttf);
+}
+
+body {
+    background-color: linen;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    position: sticky;
+    top: 0;
+    background: linen;
+}
+
+.header {
+    background-image: linear-gradient(to bottom right, lavender, blue );
+    color: white;
+    font-family: "Header-Font";
+}
+
+.props {
+    font-size: xx-large;
+    color: blue;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.example {
+    background: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.thead th {
+    text-align: left;
+    text-transform: uppercase;
+    background-color: blue;
+}
+
+table {
+    border-spacing: .5em;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: .5em;
+    overflow-wrap: normal;
+    font-weight: bold;
+}
+
+th {
+    padding: .5em;
+    background: linen;
+    color: white;
+    position: sticky;
+    top: 2em;
+}
+
+.property {
+    
+}
+
+.description {
+    
+}
+
+.example {
+    font-family: monospace;
+}

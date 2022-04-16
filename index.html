@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheatsheet</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    
+    <div class="header">
+        <h1>Cascading Style Sheets (CSS) Cheatsheet</h1>
+    </div>
+    <nav>
+        <a href="#BoxProps">Box</a>
+        <a href="#FontProps">Font</a>
+        <a href="#ColorProps">Color/Background</a>
+        <a href="#TextProps">Text</a>
+        <a href="#ClassProps">Classification</a>
+    </nav>
+    
+    <table>
+       <tbody>
+        <tr class="thead">
+            <th scope="col">Property</th>
+            <th scope="col">Description</th>
+            <th scope="col">Example</th>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="props" id="BoxProps">Box Properties</td>
+        </tr>
+
+        <!--Box Props Row 1-->
+        <tr>
+            <td class="property">Margin-Top</td>
+            <td class="description">Sets the top margin of an element by specifying
+                a length or a percentage.</td>
+            <td class="example">body { margin-top: 5pt; }</td>
+        </tr>
+        
+        <!--Box Props Row 2-->
+        <tr>
+            <td class="property">Border-Left-Width</td>
+            <td class="description">Used to specify the width of an element's left
+                border.</td>
+            <td class="example">p { border-left: 20%; }</td>
+        </tr>
+
+        <!--Box Props Row 3-->
+        <tr>
+            <td class="property">Margin-Right</td>
+            <td class="description">Sets the right margin of an element by specifying a length or a
+                percentage.</td>
+            <td class="example">p { margin-right: 50%; }</td>
+        </tr>
+        
+        <!--Box Props Row 4-->
+        <tr>
+            <td class="property">Border-Width</td>
+            <td class="description">To set the width of an element's border
+                (either all borders, or specifying top border, right border, bottom
+                border, left border).</td>
+            <td class="example">p { border-width: 20%; }<br>
+                p { border-width: 10px 5px 10px 5px; }</td>
+        </tr>
+
+        <!--Box Props Row 5-->
+        <tr>
+            <td class="property">Margin-Bottom</td>
+            <td class="description">The bottom margin of an element by specifying a length or
+                a percentage.</td>
+            <td class="example">p { margin-bottom: 3em; }</td>
+        </tr>
+
+        <!--Box Props Row 6-->
+        <tr>
+            <td class="property">Border-Color</td>
+            <td class="description">Used to set the color of an element's border.</td>
+            <td class="example">p { border-color: #00000; }</td>
+        </tr>
+
+        <!--Box Props Row 7-->
+        <tr>
+            <td class="property">Margin-Left</td>
+            <td class="description">The left margin of an element by specifying a length or a
+                percentage.</td>
+            <td class="example">.address { margin-left: 50%; }</td>
+        
+        </tr>
+        
+        <!--Box Props Row 8-->
+        <tr>
+            <td class="property">Border-Style</td>
+            <td class="description">Sets style of a border - none, dotted, dashed, solid, double.</td>
+            <td class="example">p { border-style: dotted; } </td>
+        </tr>
+
+        <!--Box Props Row 9-->
+        <tr>
+            <td class="property">Margin</td>
+            <td class="description">Sets the margins of an element by specifying top, bottom, left
+                and right margins -- all either specifying length or percentage.</td>
+            <td class="example">p { margin: 2em 4em; }</td>
+        </tr>
+
+        <!--Box Props Row 10-->
+        <tr>
+            <td class="property">Border-Top</td>
+            <td class="description">Sets the width, style, and color of an element's top border.</td>
+            <td class="example">p { border-top: 10px, red, double; } </td>
+        </tr>
+
+        <!--Box Props Row 11-->
+        <tr>
+            <td class="property">Padding-Top</td>
+            <td class="description">Describes the amount of space between the top border and
+                the content of the selector</td>
+            <td class="example">p { padding-top: 20%; }</td>
+        </tr>
+
+        <!--Box Props Row 12-->
+        <tr>
+            <td class="property">Padding-Right</td>
+            <td class="description">Describes the amount of space between the right border and
+                the content of the selector.</td>
+            <td class="example">p { padding-right: 20 px; }</td>
+        </tr>
+
+        <!--Box Props Row 13-->
+        <tr>
+            <td class="property">Padding-Bottom</td>
+            <td class="description">Describes the amount of space between the bottom border
+                and the content of the selector.</td>
+            <td class="example">p { padding-bottom: 5 em; }</td>
+        </tr>
+
+        <!--Box Props Row 14-->
+        <tr>
+            <td class="property">Padding-Left</td>
+            <td class="description">Describes the amount of space between the left border and
+                the content of the selector.</td>
+            <td class="example">p { padding-left: 15 pt; }</td>
+        </tr>
+
+        <!--Box Props Row 15-->
+        <tr>
+            <td class="property">Border-Top-Width</td>
+            <td class="description">Used to specify the width of an element's top border.</td>
+            <td class="example">p { border-top: 20%; } 
+            </td>
+        </tr>
+
+        <!--Box Props Row 16-->
+        <tr>
+            <td class="property">Border-Right-Width</td>
+            <td class="description">Used to specify the width of an element's right border.
+            </td>
+            <td class="example">p { border-right: 20%; } </td>
+        </tr>
+
+        <!--Box Props Row 17-->
+        <tr>
+            <td class="property">Border-Bottom-Width</td>
+            <td class="description">Used to specify the width of an element's bottom border.
+            </td>
+            <td class="example">p { border-bottom: 20%; }</td>
+        </tr>
+
+        <!--Box Props Row 18-->
+        <tr>
+            <td class="property">Border-Right</td>
+            <td class="description">Sets the width, style, and color of an element's right border. 
+            </td>
+            <td class="example">p { border-right: 10px, red, double; } </td>
+        </tr>
+
+        <!--Box Props Row 19-->
+        <tr>
+            <td class="property">Border-Bottom</td>
+            <td class="description">Sets the width, style, and color of an element's bottom border. 
+            </td>
+            <td class="example">p { border-bottom: 10px, red, double; }</td>
+        </tr>
+
+        <!--Box Props Row 20-->
+        <tr>
+            <td class="property">Border-Left</td>
+            <td class="description">Sets the width, style, and color of an element's left border. 
+            </td>
+            <td class="example">p { border-left: 10px, red, double; }</td>
+        </tr>
+
+        <!--Box Props Row 21-->
+        <tr>
+            <td class="property">Border</td>
+            <td class="description">Sets the width, style, and color of an element's border.
+            </td>
+            <td class="example">p { border: 10px, red, double; }</td>
+        </tr>
+
+        <!--Box Props Row 22-->
+        <tr>
+            <td class="property">Width</td>
+            <td class="description">Each block-level or replaced element can be given a width,
+                specified as a length, a percentage, or as auto.</td>
+            <td class="example">p { width: 15px; }</td>
+        </tr>
+
+        <!--Box Props Row 23-->
+        <tr>
+            <td class="property">Height</td>
+            <td class="description">Each block-level or replaced element can be given a height,
+                specified as a length or as auto.</td>
+            <td class="example">p { height: 15px; }</td>
+        </tr>
+
+        <!--Box Props Row 24-->
+        <tr>
+            <td class="property">Float</td>
+            <td class="description">Allows text to wrap around an element (left, right, none).
+            </td>
+            <td class="example">p { float: left; }</td>
+        </tr>
+
+        <!--Box Props Row 25-->
+        <tr>
+            <td class="property">Clear</td>
+            <td class="description">Specifies whether an element allows floating elements to its
+                sides (left, right, none).</td>
+            <td class="example">p { clear: left; }</td>
+        </tr>
+
+        <!--Box Props Row 26-->
+        <tr>
+            <td class="property">Padding</td>
+            <td class="description">Shorthand for the padding-top, padding-right, padding-bottom,
+                and padding-left properties.</td>
+            <td class="example">blockquote{ padding: 2em 4em 5em 4em; }</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="props" id="FontProps">Font Properties</td>
+        </tr>
+        
+        <!--Font Row 1-->
+        <tr>
+            <td class="property">Font-Family</td>
+            <td class="description">Changes the font family of certain words, sentences,
+                paragraphs, etc. </td>
+            <td class="example">p { font-family: "New Century Schoolbook", Times, serif; }</td>
+        </tr>
+        <!--Font Row 2-->
+        <tr>
+            <td class="property">Font-Style</td>
+            <td class="description">Changes text: normal, oblique, and italics.</td>         </td>
+            <td class="example"> { font-style: normal; } </td>
+        </tr>
+
+        <!--Font Row 3-->
+        <tr>
+            <td class="property">Font-Variant</td>
+            <td class="description">Used to display font in normal or small-caps</td>
+            <td class="example">span { font-variant: small-caps; } </td>
+        </tr>
+
+        <!--Font Row 4-->
+        <tr>
+            <td class="property">Font-Weight</td>
+            <td class="description">Used to specify the weight of the font.</td>
+            <td class="example">h1 { font-weight: 800; } <br> p { font-weight: normal; } 
+            </td>
+        </tr>
+
+        <!--Font Row 5-->
+        <tr>
+            <td class="property">Font-Size</td>
+            <td class="description">Used to modify the size of the displayed font.</td>
+            <td class="example">p { font-size: 12pt; }</td>
+        </tr>
+
+        <!--Font Row 6-->
+        <tr>
+            <td class="property">Font</td>
+            <td class="description">Used to combine all properties of fonts.</td>
+            <td class="example">p { font: italic bold 12pt/14pt Times, serif; }</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="props" id="ColorProps">Color and Background Properties</td>
+        </tr>
+        
+        <!--Color Row 1-->
+        <tr>
+            <td class="property">Color</td>
+            <td class="description">Changes the color of text.</td>
+            <td class="example">h1 { color: blue; }<br> h2 { color: #000080; }</td>
+        </tr>
+
+        <!--Color Row 2-->
+        <tr>
+            <td class="property">Background-Color</td>
+            <td class="description">Sets the background color of an element.</td>
+            <td class="example">body { background-color: white; }</td>
+        </tr>
+
+        <!--Color Row 3-->
+        <tr>
+            <td class="property">Background-Image</td>
+            <td class="description">Sets the background image of an element.</td>
+            <td class="example">body { background-image: url(/images/foo.gif); }<br>
+                p { background-image: url(http://www.htmlhelp.com/bg.png); } </td>
+        </tr>
+
+        <!--Color Row 4-->
+        <tr>
+            <td class="property">Background-Repeat</td>
+            <td class="description">Determines how a specified background image is repeated.
+                The repeat-x value will repeat the image horizontally while the
+                repeat-y value will repeat the image vertically.</td>
+            <td class="example">body { background: white url(candybar.gif);<br>
+                background-repeat: repeat-x; }</td>
+        </tr>
+
+        <!--Color Row 5-->
+        <tr>
+            <td class="property">Background-Attachment</td>
+            <td class="description">Determines if a specified background image will scroll with the
+                content or be fixed with regard to the canvas.</td>
+            <td class="example">body { background: white url(candybar.gif);<br>
+                background-attachment: fixed; } </td>
+        </tr>
+
+        <!--Color Row 6-->
+        <tr>
+            <td class="property">Background</td>
+            <td class="description">Used to combine all properties of background.</td>
+            <td class="example">body { background: white url(http://www.htmlhelp.com/foo.gif); }<br>
+                blockquote { background: #7fffd4; }<br>
+                p { background: url(../backgrounds/pawn.png) #f0f8ff fixed; }<br>
+                table { background: red url(leaves.jpg) no-repeat bottom right; }</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="props" id="TextProps">Text Properties</td>
+        </tr>
+        
+        <!--Text Row 1-->
+        <tr>
+            <td class="property">Word-Spacing</td>
+            <td class="description">Defines an additional amount of space between words.</td>
+            <td class="example">p em { word-spacing: 0.4em; }<br>
+                p.note { word-spacing: -0.2em; }</td>
+        </tr>
+
+        <!--Text Row 2-->
+        <tr>
+            <td class="property">Letter-Spacing</td>
+            <td class="description">Defines an additional amount of space between characters.</td>
+            <td class="example">h1 { letter-spacing: 0.1em; }<br>
+                p.note { letter-spacing: -0.1em; }</td>
+        </tr>
+
+        <!--Text Row 3-->
+        <tr>
+            <td class="property">Text-Decoration</td>
+            <td class="description">Allows text to be decorated through one of five properties:
+                underline, overline, line-through, blink, none.</td>
+            <td class="example">A:link, A:visited, A:active { text-decoration: none; }</td>
+        </tr>
+
+        <!--Text Row 4-->
+        <tr>
+            <td class="property">Vertical-Align</td>
+            <td class="description">Used to alter the vertical positioning of an inline element,
+                relative to its parent element or to the element's line</td>
+            <td class="example">img.middle { vertical-align: middle; }<br>
+                img { vertical-align: 50%; }<br>
+                .exponent { vertical-align: super; } 
+                </td>
+        </tr>
+
+        <!--Text Row 5-->
+        <tr>
+            <td class="property"Text-Transform></td>
+            <td class="description">Allows for capitalizing the first letter of each word (capitalize),
+                capitalizing all letters of a word (uppercase), using all small
+                letters in each word(lowercase), and the inital value(none).</td>
+            <td class="example">img.middle { vertical-align: middle; }<br>
+                img { vertical-align: 50%; }<br>
+                .exponent { vertical-align: super; } 
+                </td>
+        </tr>
+
+        <!--Text Row 6-->
+        <tr>
+            <td class="property">Text-Align</td>
+            <td class="description">Used to justify text left, center, right, and justify.</td>
+            <td class="example">h1 { text-align: center; }<br>
+                P.newspaper { text-align: justify; }</td>
+        </tr>
+
+        <!--Text Row 7-->
+        <tr>
+            <td class="property">Text-Indent</td>
+            <td class="description">Used to specify the amount of indentation prior to the first line
+                of text.</td>
+            <td class="example">p { text-indent: 5em; }
+            </td>
+        </tr>
+
+        <!--Text Row 8-->
+        <tr>
+            <td class="property">Line-Height</td>
+            <td class="description">Used to control the spacing between baselines of text.</td>
+            <td class="example">p { line-height: 200%; }
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="props" id="ClassProps">Classification Properties</td>
+        </tr>
+        
+        <!--Classification Row 1-->
+       <tr>
+           <td class="properties">List-Style-Type</td>
+           <td class="description">Specifies the type of list-item marker, and is used if list-styleimage is none or if image loading is turned off.</td>
+           <td class="example">li.square { list-style-type: square; }<br>
+            ul.plain { list-style-type: none; }<br>
+            ol { list-style-type: upper-alpha; } /* A B C D E etc. */<br>
+            ol { list-style-type: decimal; } /* 1 2 3 4 5 etc. */<br>
+            ol { list-style-type: lower-roman; } /* i ii iii iv v etc. */</td>
+       </tr>
+
+        <!--Classification Row 2-->
+        <tr>
+            <td class="properties">List-Style-Image</td>
+            <td class="description">Specifies the image that will be used as list-item marker when
+                image loading is turned on, replacing the marker specified in
+                the list-style-type property.</td>
+            <td class="example">ul.check { list-style-image: url(/LI-markers/checkmark.gif); }<br>
+                ul li.x { list-style-image: url(x.png); }</td>
+        </tr>
+
+        <!--Classification Row 3-->
+        <tr>
+            <td class="properties">List-Style-Position</td>
+            <td class="description">Determines where the marker is placed in regard to the list
+                item. If the value inside is used, the lines will wrap under the
+                marker instead of being indented. outside is default.</td>
+            <td class="example">ul { list-style-position: inside; } </td>
+        </tr>
+  
+
+       </tbody>
+    </table>
+
+
+
+    
+</body>
+</html>
