@@ -17,3 +17,7 @@ Welcome to my CSS Cheatsheet webpage!
 Or
 
 2. Grab the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for vscode to allow you to edit code and see the changes within a second or two.
+
+## Misc
+
+Reference for [markdown](https://commonmark.org/help/)
