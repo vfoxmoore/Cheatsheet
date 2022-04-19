@@ -1,5 +1,5 @@
 # Cheatsheet
-## Intro
+## View in browser [click here](https://vfoxmoore.github.io/Cheatsheet/)
 
 Welcome to my CSS Cheatsheet webpage!
 
