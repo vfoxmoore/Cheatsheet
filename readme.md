@@ -1,12 +1,12 @@
 # Cheatsheet
-## View in browser [click here](https://vfoxmoore.github.io/Cheatsheet/)
+## View in browser [click here](https://vfoxmoore.github.io/cheatsheet/)
 
 Welcome to my CSS Cheatsheet webpage!
 
 ## How to clone
 1. In VSCode, hit ```ctrl``` + ```shift``` + ```p```, type ```clone```, and select ```Git: Clone```
 2. select ```Clone from Github```
-3. type in the name of this repo: ```vfoxmoore/Cheatsheet```
+3. type in the name of this repo: ```vfoxmoore/cheatsheet```
 4. pick where to save to
 5. open it in vscode
 6. For more help [click here](https://code.visualstudio.com/docs/editor/github).
